@@ -1,0 +1,6 @@
+@Test.AES_HostAddress = http://localhost:5287
+
+GET {{Test.AES_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
